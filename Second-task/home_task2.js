@@ -20,7 +20,18 @@ else {
     alert("Спробуйте наступного разу");
 }
 
-//Home task2
 
+//Home task2
+const celsiusTemp = prompt ("Введіть температуру за градусами Цельсія"," ");
+
+    if (isNaN(celsiusTemp)){
+
+    alert("Введено не число");
+    }
+    
+else {
+    const fahrTemp = celsiusTemp * 9/5 + 32;
+    alert(fahrTemp);
+}
 
 //Home task 3
