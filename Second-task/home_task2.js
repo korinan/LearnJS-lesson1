@@ -1,9 +1,9 @@
 //Home task1
 
-const num = prompt('Введіть номер квитка');
+const num = prompt("Введіть номер квитка");
 
     if ((+num[0]+ +num[1] + +num[2]) == (+num[3]+ +num[4] + +num[5])) {
-    alert('Цей квиток щасливий!');
+    alert("Цей квиток щасливий!");
 }
 
 else if (num.length > 6){
@@ -15,9 +15,9 @@ else if (num.length < 6){
     alert("Квиток має не достатню кількість цифр!");
 
    }
-   
+
 else { 
-    alert('Спробуйте наступного разу');
+    alert("Спробуйте наступного разу");
 }
 
 //Home task2
